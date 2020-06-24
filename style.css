@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.main-logo {
+  height: 3.6rem;
+  width: 13.4rem;
+}
+
+.redButton {
+  background-color: #e50914;
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+  padding: 7px 17px;
+  /* font-weight: bold; */
+  font-size: 1.4rem;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  height: 3rem;
+  width: 8.4rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  width: 97%;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.main-container {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("images/landing-img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  font-size: 2.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35.5rem;
+  width: 95rem;
+  margin-top: 3rem;
+}
+
+.hero h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  width: 62rem;
+  height: 6.2rem;
+  margin: auto;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  padding-bottom: 20px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  max-width: 55rem;
+  text-align: center;
+  margin-top: 5rem;
+  line-height: 55px;
+  letter-spacing: 1px;
+}
+
+.input-email {
+  height: 6rem;
+  width: 45rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.email-container {
+  display: flex;
+}
+
+.hero-submit {
+  background: #bb0a12;
+  width: 25.8rem;
+  font-size: 26px;
+  color: #ffff;
+  height: 6rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hero-submit:hover {
+  background: #f40612;
+}
+
+.hero-para {
+  font-size: 1.92rem;
+}
+
+.section-tv-container {
+  border-top: 8px solid #222;
+  height: 48.2rem;
+  border-bottom: 8px solid #222;
+  /* background: #000; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  /* z-index: -300; */
+}
+
+.section-tv {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin: auto;
+  background: #000;
+  z-index: -300;
+}
+
+.tv-container {
+  position: relative;
+  background: #000;
+}
+
+.tv-pic {
+  height: 35.8rem;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+
+  /* padding-right: 20px; */
+}
+
+.tv-video {
+  /* z-index: 20; */
+  position: absolute;
+  top: 5px;
+  left: 79px;
+  width: 450px;
+  height: 420px;
+  z-index: -1;
+}
+
+.tv-feature-text {
+  background: #000;
+}
+.tv-feature-text h1 {
+  font-size: 5rem;
+  width: 41.4rem;
+}
+
+.tv-feature-text h2 {
+  margin-top: 20px;
+  font-size: 2.6rem;
+  width: 51.2rem;
+  font-weight: 400;
+}
+
+.section-mobile-container {
+  border-top: 8px solid #222;
+  height: 48.2rem;
+  background: #000;
+  border-bottom: 8px solid #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-mobile {
+  height: 42.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+.mobile-feature-text {
+  margin-right: 12rem;
+}
+
+.mobile-feature-text h1 {
+  font-size: 5rem;
+  width: 50rem;
+}
+
+.mobile-feature-text h2 {
+  margin-top: 20px;
+  font-size: 2.6rem;
+  width: 50rem;
+  font-weight: 400;
+}
+
+.mobile-pic {
+  height: 32.7rem;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+  /* padding-right: 20px; */
+}
+
+.strangerthings-container {
+  height: 9.4rem;
+  width: 33rem;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 12rem;
+  left: 5rem;
+  background: #000;
+}
+
+.st-pic {
+  height: 7.7rem;
+}
+
+.st-text {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-right: 70px;
+}
+
+.st-text span {
+  font-size: 1.4rem;
+  color: #0071eb;
+  font-weight: 400;
+}
+
+.download-icon {
+  height: 2rem;
+  width: 1.6rem;
+}
+
+.tv-video2 {
+  position: absolute;
+  top: 5px;
+  left: 109px;
+  width: 378px;
+  height: 291px;
+  z-index: -1;
+}
+
+.tv-container2 {
+  position: relative;
+}
+
+#tv_container {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  margin-right: 90px;
+}
+
+.monitor {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png");
+  background-position: center;
+  background-size: cover;
+  z-index: 30;
+}
+
+.monitor1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+  background-position: center;
+  background-size: cover;
+  z-index: 30;
+}
